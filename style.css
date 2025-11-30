@@ -1,0 +1,63 @@
+@media(min-width: 700px) {
+    body {
+        background-color: antiquewhite;
+    }
+
+    h1 {
+        display: inline;
+        float: left;
+    }
+
+    h1>span {
+        color: brown;
+    }
+
+    h3 {
+        display: inline;
+        float: right;
+    }
+
+    .movie-card {
+        display: inline-block;
+        float: left;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .birth-card {
+        display: inline-block;
+        float: right;
+
+        img {
+            width: 100%;
+        }
+
+        margin-right: 40px;
+    }
+
+    hr {
+        clear: both;
+    }
+
+    .out-hr {
+        display: none;
+    }
+
+    .footer {
+        clear: both;
+    }
+}
+
+@media(min-width:1000px) {
+    .birth-card {
+        margin-right: 250px;
+    }
+}
+
+@media(min-width:1200px) {
+    .birth-card {
+        margin-right: 500px;
+    }
+}
